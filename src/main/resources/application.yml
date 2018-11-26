@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: eureka-server
+
+server:
+  port: 10001
+
+eureka:
+  instance:
+    hostname: es.shruochu.com
+  client:
+    service-url:
+      defaultZone: http://es.shruochu.com:10001/eureka/
+    register-with-eureka: false
+    fetch-registry: false
+

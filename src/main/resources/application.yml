@@ -7,10 +7,10 @@ server:
 
 eureka:
   instance:
-    hostname: es.shruochu.com
+    hostname: localhost
   client:
     service-url:
-      defaultZone: http://es.shruochu.com:10001/eureka/
+      defaultZone: http://localhost:10001/eureka/
     register-with-eureka: false
     fetch-registry: false
 
